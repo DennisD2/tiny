@@ -6,7 +6,7 @@
   "scripts": {
     "build": "tsc",
     "run": "cp -av src/static dist && node --max-old-space-size=4096 dist/index.js",
-    "start": "cp -av src/static dist && tsc && node --max-old-space-size=4096 dist/index.js",
+    "start": "cp -av src/static dist && node --max-old-space-size=4096 dist/index.js",
     "dev": "tsc --watch & nodemon dist",
     "test": "tsc && mocha dist/**/*.spec.js",
     "lint": "eslint src --ext ts",
