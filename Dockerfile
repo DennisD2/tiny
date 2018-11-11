@@ -1,4 +1,4 @@
-FROM nodejs:8
+FROM nodejs
 
 RUN mv /opt/app-root/src /opt/app-root/src1 && \
 	mkdir /opt/app-root/src && \
